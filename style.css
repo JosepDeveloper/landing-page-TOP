@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #000;
+  width: 98.9vw;
+  height: 80px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header img {
+  padding-left: 15px;
+  height: auto;
+  width: 100px;
+}
+
+.header ul {
+  margin-left: auto;
+  list-style: none;
+  padding: 0;
+  padding-right: 15px;
+  display: flex;
+  gap: 40px;
+}
+
+.header ul a {
+  outline: none;
+  color: white;
+  text-decoration: none;
+  transition: color 0.5s linear;
+}
+
+.header ul a:hover {
+  color: rgb(99, 96, 96);
+}
+
+.content {
+  color: #fff;
+  background-color: #000;
+  height: 350px;
+  width: 98.9vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+}
+
+.content img {
+  height: auto;
+  width: 500px;
+}
+
+.content div {
+  width: 600px;
+  height: 200px;
+}
+
+.content div h1 {
+  font-size: 1.5em;
+  text-align: justify;
+  font-weight: 900;
+}
+
+.content div p {
+  font-weight: 550;
+}
+
+.information {
+  margin: 0;
+  width: 98.9vw;
+  height: 600px;
+  background-color: #161616;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.screenshot {
+  height: 300px;
+  width: 98.9vw;
+  text-align: center;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.screenshot h2 {
+  margin: 0 0 40px 0;
+}
+
+.buy-now h3 {
+  margin: 0;
+  font-weight: 700;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.images img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border: 5px solid rgb(59, 57, 57);
+  border-radius: 0.5em;
+}
+
+.buy-now {
+  margin-top: 100px;
+  height: 150px;
+  width: 750px;
+  padding: 0 15px;
+  background-color: rgb(24, 54, 47);
+  display: flex;
+  align-items: center;
+  padding: 0 70px;
+  border-radius: 0.4em;
+  margin: 50px;
+}
+
+.buy-now div {
+  padding-top: 12px;
+  width: 350px;
+}
+
+.buy-now a {
+  text-transform: uppercase;
+  font-weight: bold;
+  outline: none;
+  color: white;
+  text-decoration: none;
+  margin-left: auto;
+  border: 2px solid white;
+  border-radius: 0.2em;
+  padding: 13px;
+  transition: border 0.2s linear;
+  transition: background-color 0.2s linear;
+}
+
+.buy-now a:hover {
+  background-color: #cc0000;
+  border: 2px solid #cc0000;
+}
+
+.footer {
+  width: 98.9vw;
+  height: 80px;
+  background-color: #000;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer h4 {
+  margin: 0;
+}
